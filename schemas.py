@@ -7,6 +7,7 @@ class BlogCreate(BaseModel):
     content: str
 
 #Output Schema
+
 class BlogResponse(BaseModel):
     id:int
     title:str
