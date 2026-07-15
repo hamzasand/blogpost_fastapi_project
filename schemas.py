@@ -1,6 +1,5 @@
 from pydantic import BaseModel
 
-
 #input schema
 class BlogCreate(BaseModel):
     title: str
